@@ -1,0 +1,32 @@
+# Secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vercel/
+.vercel-package/
+.DS_Store
+# Environments and generated artifacts
+.venv
+.runtime/
+__pycache__/
+*.pyc
+node_modules
+test-results/
+playwright-report/
+ui-test-results.json
+prototype/*-results.json
+prototype/*-results.md
+# Private feedback and public-metadata caches
+*feedback*.jsonl
+*.sqlite3*
+.musicbrainz-cache/
+.musicbrainz-api.lock
+source-cache/
+# Locally reconstructed research data and deployment snapshots
+prototype/data/catalog-popular*.json
+prototype/data/*-report.json
+prototype/data/catalog-expansion-audit.json
+prototype/deployment/data/
+development/

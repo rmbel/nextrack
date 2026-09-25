@@ -1,0 +1,8 @@
+[project]
+name = "nexttrack"
+version = "0.7.0"
+requires-python = ">=3.12,<3.13"
+dependencies = ["fastapi==0.115.12", "uvicorn==0.34.2"]
+
+[tool.vercel]
+entrypoint = "app.main:app"

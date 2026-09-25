@@ -1,0 +1,42 @@
+[
+  {
+    "name": "recent_bachata",
+    "seed_track_ids": [
+      "romeo-propuesta-indecente",
+      "romeo-eres-mia",
+      "juan-luis-bachata-en-fukuoka"
+    ],
+    "prompt": "recent bachata songs",
+    "limit": 5
+  },
+  {
+    "name": "chill_indie",
+    "seed_track_ids": [
+      "clairo-sofia",
+      "men-i-trust-show-me-how",
+      "tame-impala-less-i-know"
+    ],
+    "prompt": "chill indie songs",
+    "limit": 5
+  },
+  {
+    "name": "energetic_pop",
+    "seed_track_ids": [
+      "taylor-cruel-summer",
+      "harry-as-it-was",
+      "dua-lipa-levitating"
+    ],
+    "prompt": "energetic pop songs",
+    "limit": 5
+  },
+  {
+    "name": "classic_rock",
+    "seed_track_ids": [
+      "coldplay-viva-la-vida",
+      "killers-mr-brightside",
+      "rhcp-californication"
+    ],
+    "prompt": "classic energetic rock",
+    "limit": 5
+  }
+]

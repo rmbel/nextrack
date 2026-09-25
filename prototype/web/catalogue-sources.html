@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NextTrack — Music data credits</title>
+<style>body{font:17px/1.6 system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 24px;color:#eee;background:#151817}a{color:#99d9bc}h1,h2{line-height:1.2}h2{margin-top:2em}img{width:150px;background:white;border-radius:4px}li{margin:.5em 0}</style></head>
+<body><a href="/">← NextTrack</a><h1>Music data credits</h1>
+<p>NextTrack is a non-commercial university research prototype. The catalogue combines historical datasets and provider metadata. Dates, genres and listening counts have different coverage across sources; missing information remains unknown.</p>
+<p>The public source repository contains a smaller demonstration subset. The optional research datasets below are obtained separately; their presence depends on the installation.</p>
+<h2>The Echo Nest Taste Profile subset</h2>
+<a href="http://www.echonest.com/"><img src="/static/echonest.jpg" alt="The Echo Nest"></a>
+<p>Installations with the optional listener-ranked addition use the <a href="http://millionsongdataset.com/tasteprofile/">Taste Profile subset of the Million Song Dataset</a>, released in 2011. The research importer counts distinct users per song within its research cohort, excludes documented invalid song-to-track mappings, and selects 20,000 eligible songs. Repeated plays do not add listeners. These are historical cohort rankings, not current worldwide or Spotify charts.</p>
+<p>Track titles, artist names and available release years come from the Million Song Dataset. Thierry Bertin-Mahieux, Daniel P. W. Ellis, Brian Whitman and Paul Lamere. <em>The Million Song Dataset.</em> ISMIR 2011. Used under its <a href="https://github.com/tbertinmahieux/MSongsDB/blob/master/LICENSE">research and non-commercial terms</a>. No audio or individual listening histories are served by this app.</p>
+<h2>Genre annotations</h2>
+<p>Hendrik Schreiber. <em>Improving Genre Annotations for the Million Song Dataset.</em> ISMIR 2015, pp. 241–247. <a href="https://www.tagtraum.com/msd_genre_datasets.html">tagtraum CD2</a> supplies published majority and optional minority genre labels matched by track ID. Research use only, strictly non-commercial. Genre labels do not establish language, mood or energy.</p>
+<h2>Other catalogue sources</h2>
+<ul><li><a href="https://github.com/mdeff/fma">Free Music Archive dataset</a> — Michaël Defferrard, Kirell Benzi, Pierre Vandergheynst and Xavier Bresson, 2017. Metadata is adapted under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Historical FMA play counts are separate from Taste Profile listeners.</li>
+<li><a href="https://musicbrainz.org/doc/About/Data_License">MusicBrainz contributors and the MetaBrainz Foundation</a> — supplies saved catalogue metadata and live recording search results. Release years use the earliest release date recorded by MusicBrainz; community tags may be incomplete. Core metadata is CC0; adapted supplementary community tags and genres retain <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> attribution.</li>
+<li>Apple iTunes Search API metadata — provider identifiers and source links are preserved. Spotify links open listening destinations; Spotify listening history is not used to build this catalogue.</li></ul>
+</body></html>

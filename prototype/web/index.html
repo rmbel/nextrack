@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NextTrack Prototype</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <h1>NextTrack</h1>
+        <div class="spotify-account">
+          <a id="spotify-login" href="/auth/spotify/login"><img src="/static/spotify.svg" alt="" />Log in with Spotify</a>
+          <span id="spotify-connected" class="hidden">Spotify connected</span>
+          <button id="spotify-logout" class="hidden" type="button">Disconnect</button>
+        </div>
+        <p id="spotify-status" role="status"></p>
+      </section>
+
+      <section class="panel panel-compose">
+        <div class="composer">
+          <div class="composer-meta">
+            <span id="seed-counter" class="seed-counter"></span>
+          </div>
+          <div class="seed-field" id="seed-field">
+            <span class="command-prefix">Recommend me</span>
+            <textarea
+              id="prompt-query"
+              class="prompt-input"
+              placeholder="recent bachata songs"
+              autocomplete="off"
+              aria-label="Playlist prompt"
+              maxlength="500"
+              rows="1"
+            ></textarea>
+            <span id="like-token" class="like-token">like</span>
+            <div id="selected-tracks" class="selected-tracks"></div>
+            <div class="seed-input-wrap">
+              <span id="ghost-suggestion" class="ghost-suggestion hidden" aria-hidden="true"></span>
+              <input
+                id="seed-query"
+                class="seed-input"
+                placeholder="La Bachata - Manuel Turizo"
+                autocomplete="off"
+                aria-label="Song search" aria-describedby="autocomplete-status"
+              />
+            </div>
+          </div>
+          <span id="autocomplete-status" class="sr-only" role="status" aria-live="polite"></span>
+          <p class="composer-hint">
+            <kbd>⇥</kbd> accept · <kbd>↑</kbd><kbd>↓</kbd> cycle · <kbd>⌫</kbd> remove
+          </p>
+        </div>
+        <div class="action-row">
+          <button id="recommend-btn" class="primary" disabled>Recommend</button>
+          <button id="restart-btn" class="secondary secondary-icon" type="button" aria-label="Restart">↺</button>
+        </div>
+      </section>
+
+      <p id="request-status" role="status" aria-live="polite"></p>
+      <section id="results-panel" class="results-panel hidden">
+        <ul id="results" class="results"></ul>
+        <form id="feedback-form" class="feedback-panel">
+          <div class="feedback-heading">
+            <strong>Rate this playlist</strong>
+            <span id="feedback-status" aria-live="polite"></span>
+          </div>
+          <div class="feedback-controls">
+            <fieldset class="star-rating" aria-label="Playlist rating">
+              <label><input type="radio" name="rating" value="1" aria-label="1 star" required /><span aria-hidden="true">★</span></label>
+              <label><input type="radio" name="rating" value="2" aria-label="2 stars" required /><span aria-hidden="true">★</span></label>
+              <label><input type="radio" name="rating" value="3" aria-label="3 stars" required /><span aria-hidden="true">★</span></label>
+              <label><input type="radio" name="rating" value="4" aria-label="4 stars" required /><span aria-hidden="true">★</span></label>
+              <label><input type="radio" name="rating" value="5" aria-label="5 stars" required /><span aria-hidden="true">★</span></label>
+            </fieldset>
+            <input id="feedback-comment" class="feedback-comment" maxlength="500" placeholder="One change (optional)" />
+            <button class="feedback-submit" type="submit">Save rating</button>
+          </div>
+        </form>
+      </section>
+      <footer class="catalogue-attribution">
+        <a href="/static/catalogue-sources.html" target="_blank" rel="noopener noreferrer">Data credits</a>
+      </footer>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

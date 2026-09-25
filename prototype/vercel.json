@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "fastapi",
+  "regions": ["fra1"],
+  "functions": {
+    "app/main.py": {
+      "maxDuration": 60,
+      "memory": 1024,
+      "includeFiles": "{deployment/data/**,web/**,data/catalog-quality-overrides.json}"
+    }
+  }
+}

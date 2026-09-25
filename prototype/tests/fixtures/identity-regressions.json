@@ -1,0 +1,141 @@
+[
+  {
+    "id": "huntr-x-ejae-audrey-nuna-rei-ami-kpop-demon-hunters-cast-golden",
+    "title": "Golden",
+    "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast",
+    "year": 2025,
+    "genre": "k-pop",
+    "subgenres": [
+      "pop",
+      "dance",
+      "k pop"
+    ],
+    "tags": [
+      "energetic",
+      "bright",
+      "mainstream",
+      "recent"
+    ],
+    "language": "korean",
+    "energy": 5
+  },
+  {
+    "id": "white-noise-therapy-white-noise-3-hour-long",
+    "title": "White Noise 3 Hour Long",
+    "artist": "White Noise Therapy",
+    "year": 2016,
+    "genre": "dance",
+    "subgenres": [
+      "electronic",
+      "pop"
+    ],
+    "tags": [
+      "dance",
+      "party",
+      "energetic",
+      "modern"
+    ],
+    "language": "english",
+    "energy": 5
+  },
+  {
+    "id": "huntr-x-ejae-rei-ami-kpop-demon-hunters-cast-golden",
+    "title": "Golden",
+    "artist": "HUNTR/X, EJAE, オードリー・ヌナ, REI AMI & KPop Demon Hunters Cast",
+    "year": 2025,
+    "genre": "k-pop",
+    "subgenres": [
+      "pop",
+      "dance",
+      "k pop"
+    ],
+    "tags": [
+      "energetic",
+      "bright",
+      "mainstream",
+      "recent"
+    ],
+    "language": "korean",
+    "energy": 5
+  },
+  {
+    "id": "itunes:693361492",
+    "title": "Frio, frio (Cold, cold)",
+    "artist": "Bebu Silvetti & Plácido Domingo",
+    "year": 1983,
+    "genre": "classical",
+    "subgenres": [],
+    "tags": [],
+    "language": "unknown",
+    "energy": null,
+    "source": "itunes",
+    "source_url": "https://music.apple.com/us/album/frio-frio-cold-cold/693360883?i=693361492&uo=4",
+    "source_id": "693361492",
+    "metadata_quality": {
+      "genre": "provider",
+      "language": "unknown",
+      "energy": "unknown",
+      "mood": "unknown"
+    }
+  },
+  {
+    "id": "itunes:934991402",
+    "title": "Frío, frío",
+    "artist": "Plácido Domingo, Bebu Silvetti, Miami Symphonic Strings & Alfredo Oliva",
+    "year": 1983,
+    "genre": "classical",
+    "subgenres": [],
+    "tags": [],
+    "language": "unknown",
+    "energy": null,
+    "source": "itunes",
+    "source_url": "https://music.apple.com/us/album/fr%C3%ADo-fr%C3%ADo/934986569?i=934991402&uo=4",
+    "source_id": "934991402",
+    "metadata_quality": {
+      "genre": "provider",
+      "language": "unknown",
+      "energy": "unknown",
+      "mood": "unknown"
+    }
+  },
+  {
+    "id": "itunes:1515742359",
+    "title": "Tbt",
+    "artist": "Dani J & DN-Tato",
+    "year": 2020,
+    "genre": "reggaeton",
+    "subgenres": [],
+    "tags": [],
+    "language": "unknown",
+    "energy": null,
+    "source": "itunes",
+    "source_url": "https://music.apple.com/us/album/tbt/1515741696?i=1515742359&uo=4",
+    "source_id": "1515742359",
+    "metadata_quality": {
+      "genre": "provider",
+      "language": "unknown",
+      "energy": "unknown",
+      "mood": "unknown"
+    }
+  },
+  {
+    "id": "itunes:1515412715",
+    "title": "Tbt",
+    "artist": "DN-Tato & Dani J",
+    "year": 2020,
+    "genre": "reggaeton",
+    "subgenres": [],
+    "tags": [],
+    "language": "unknown",
+    "energy": null,
+    "source": "itunes",
+    "source_url": "https://music.apple.com/us/album/tbt/1515412705?i=1515412715&uo=4",
+    "source_id": "1515412715",
+    "metadata_quality": {
+      "genre": "provider",
+      "language": "unknown",
+      "energy": "unknown",
+      "mood": "unknown"
+    }
+  }
+]

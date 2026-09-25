@@ -1,0 +1,28 @@
+{
+  "reviewed_at": "2026-09-17",
+  "artist_aliases": {
+    "オードリー・ヌナ": "AUDREY NUNA",
+    "Florence and the Machine": "Florence + The Machine"
+  },
+  "artist_alias_evidence": {
+    "オードリー・ヌナ": "https://www.sonymusic.co.jp/artist/AUDREYNUNA/profile/",
+    "Florence and the Machine": "Case/punctuation variant of the same indivisible band name; not separated into constituent people."
+  },
+  "quarantine": {
+    "white-noise-therapy-white-noise-3-hour-long": {
+      "reason": "Reviewed white-noise track is outside this song-recommendation catalogue; its existing dance/energetic labels are not reliable evidence.",
+      "evidence": "Catalogue title White Noise 3 Hour Long and artist White Noise Therapy; excluded from song recommendations.",
+      "verification": "reviewed-metadata; no audio listening"
+    }
+  },
+  "recording_groups": [],
+  "unresolved_recording_pairs": [
+    {
+      "ids": [
+        "itunes:693361492",
+        "itunes:934991402"
+      ],
+      "reason": "Frio/Frío frio has different full artist credits and a translated title annotation. Shared year and overlapping performers do not establish recording identity. Kept distinct until stronger provider evidence is available."
+    }
+  ]
+}

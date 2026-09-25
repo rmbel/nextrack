@@ -1,0 +1,18 @@
+{
+  "scope": "Public demonstration sample; not the 69710-song research snapshot",
+  "raw_records": 2098,
+  "accepted_records": 2096,
+  "source_counts": {
+    "prototype": 1000,
+    "musicbrainz": 1000,
+    "fma": 98
+  },
+  "files": {
+    "prototype/data/catalog-expansion.json": "6c346211b390a69f93160a1c3e8444c242d5786add4e47e3d3d2b98242c45ca8",
+    "prototype/data/catalog-extension.json": "fc385439e604962ca8e44823f8d7bf3ccc27b0bc0116dfc2244c37e29b113346",
+    "prototype/data/catalog-quality-overrides.json": "0f2939611eefcba22b446977d698958c28d4b33baa872e1e3dcc7fbe9b6a706d",
+    "prototype/data/catalog.json": "ffa151c868375fc01d4c174c7433d1c0f72664f21706f5f558fc8b84d4fce438",
+    "prototype/data/evaluation_scenarios.json": "a9d17f4b5376a063fa52af5a38b4d14a3f70c7ca32d7702d927afa00b772aaaa",
+    "prototype/data/metadata-evidence.json": "e90edea2588a28dea3b1146c5d9ea261ffa383263a5065d0182bc1b13d8c9d4e"
+  }
+}
